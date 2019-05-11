@@ -1,0 +1,6 @@
+<strong>Admin Panel</strong>
+<br>
+<% @users.each do |user| %>
+<%= user.email%>&nbsp;    <%= user.role %>
+<br>
+<%end%>
